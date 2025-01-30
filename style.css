@@ -135,7 +135,18 @@ h2 {
     position: relative; /* Permet d'utiliser z-index */
     z-index: 1; /* Position de base */
 }
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
 
+.picture1 {
+  animation: fadeIn 2s ease-in-out;
+}
 .picture1:hover {
     transform: scale(1.2);
     z-index: 10; /* Place au premier plan lors du survol */
@@ -154,6 +165,18 @@ h2 {
     transform: scale(1);
     position: relative; /* Permet d'utiliser z-index */
     z-index: 1; /* Position de base */
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.picture2 {
+  animation: fadeIn 2s ease-in-out;
 }
 .picture2:hover {
     transform: scale(1.2);
@@ -183,7 +206,18 @@ h2 {
     position: relative; /* Permet d'utiliser z-index */
     z-index: 1; /* Position de base */
 }
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
 
+.picture3 {
+  animation: fadeIn 2s ease-in-out;
+}
 .picture3:hover {
     transform: scale(1.2);
     z-index: 10; /* Place au premier plan lors du survol */
@@ -204,7 +238,18 @@ h2 {
     position: relative; /* Permet d'utiliser z-index */
     z-index: 1; /* Position de base */
 }
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
 
+.picture4 {
+  animation: fadeIn 2s ease-in-out;
+}
 .picture4:hover {
     transform: scale(1.2);
     z-index: 10; /* Place au premier plan lors du survol */
@@ -648,4 +693,3 @@ h2 {
       }
     }
     
-  
