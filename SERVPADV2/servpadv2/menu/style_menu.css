@@ -1,0 +1,198 @@
+body {
+    background-color: #D9D9D9;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.topContainer {
+    display: flex;
+}
+
+.logoTopLeft {
+    width: 249px;
+    height: 91px;
+    border-radius: 20px;
+    background-color: #A21010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoTopLeft span {
+    width: 10px;
+    height: 70px;
+}
+
+.logoTopLeft p {
+    width: 227.6px;
+    height: 118px;
+    font-size: 65px;
+    margin: 0px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menuTop {
+    color: #002C61;
+}
+
+
+.menuTop {
+    background-color: #002C61;
+    height: 92px;
+    width: 896px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    height: 50px;
+    width: 179px;
+    background-color: #002c61;
+    color: white;
+    border: none;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.menu-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.menu-item {
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    color: #1d3557;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.menu-item .price {
+    font-size: 20px;
+    color: #e63946;
+    font-weight: bold;
+}
+
+.action-button {
+    background-color: #1d3557;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #457b9d;
+}
+
+.footer {
+
+    background-color: none;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+    border-top: 1px solid #e0e0e0;
+}
+
+
+/* test */
+
+/* From Uiverse.io by SmookyDev */
+.custom-button {
+    padding: 1rem 2rem;
+    z-index: 1;
+    background-color: #3a3a3a;
+    border-radius: 25px;
+    color: white;
+    position: relative;
+    font-weight: 600;
+    overflow: hidden;
+    font-size: 1.2rem;
+    transition: all 0.7s;
+    text-shadow: 0px 0px 2px #ff0000;
+  }
+  
+  .custom-button:after {
+    content: '';
+    position: absolute;
+    z-index: -20;
+    height: 0.25rem; /* 1px */
+    width: 0.25rem; /* 1px */
+    background-color: #ffffff;
+    left: 1.25rem; /* 5px */
+    bottom: 0;
+    border-radius: 0.375rem; /* 6px */
+    transform: translateY(100%);
+    transition: all 0.7s;
+  }
+  
+  .custom-button:hover:after {
+    transform: scale(300);
+  }
+  
+  .custom-button:hover {
+    text-shadow: 2px 2px 2px #3a3a3a;
+    color: #3a3a3a;
+  }
+  
+  
